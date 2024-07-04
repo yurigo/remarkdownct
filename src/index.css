@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply text-white font-sans;
+}
+
+body {
+  @apply dark:bg-slate-900 min-h-screen;
+}
+
+#root {
+  @apply flex flex-col;
+}

@@ -14,9 +14,12 @@ function App() {
 
   return (
     <>
-      <h1 className="red text-3xl font-bold underline">Terms of Service</h1>
-
-      <div className="prose" dangerouslySetInnerHTML={{ __html: terms }} />
+      <main className="flex-1 pb-5 mx-10 md:ml-auto md:mr-auto mt-10">
+        <article
+          className="prose dark:prose-invert"
+          dangerouslySetInnerHTML={{ __html: terms }}
+        />
+      </main>
     </>
   );
 }
