@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply text-white font-sans;
+  @apply dark:text-white font-sans;
 }
 
 body {
